@@ -1,0 +1,8 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: #f2f2f7;
+    font-size: large;
+}

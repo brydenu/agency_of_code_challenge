@@ -1,0 +1,92 @@
+.product-container {
+    background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 700px;
+    margin-top: 20%;
+    padding: 15px;
+}
+
+.product-header {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 5px 10px;
+    align-items: center;
+}
+
+.product-header > img {
+    height: 100%;
+    width: auto;
+}
+
+.star-rating > img {
+    transition-duration: 200ms;
+}
+
+.star-rating > img:hover {
+    cursor: pointer;
+    transform: translatey(-5px);
+}
+
+.header-info {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-items: center;
+    margin-left: 10px;
+}
+
+.header-info > p {
+    margin: 0 0 5px 0;
+}
+
+
+.product-photos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.product-review {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    height: auto;
+    max-height: fit-content;
+}
+.review-text {
+    overflow: hidden;
+    transition: max-height .5s;
+    max-height: 800px;
+    height: fit-content;
+    margin: 0;
+}
+
+.review-text.minimized {
+    max-height: 40px;
+}
+
+.fa-angle-down {
+    font-size: 1.5em;
+    margin: 0 5px;
+    padding: 3px 6px;
+    transition-duration: 200ms;
+    border-radius: 15px;
+}
+
+.fa-angle-down:hover {
+    cursor: pointer;
+    background-color: rgba(80,80,80,.3);
+}
+
+.expanded > .fa-angle-down {
+    transform: scaleY(-1);
+}
+
+.product-photos > img {
+    margin: 5px;
+    max-width: 30%;
+    min-width: 200px;
+}
+
