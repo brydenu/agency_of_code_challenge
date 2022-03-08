@@ -16,7 +16,7 @@ function App() {
             <Product
                 user={user}
                 review="After a few days of experience, I found that the battery life is really great. The A13 
-                process upgrade and all of the other features were really nice.Lorem ipsum dolor sit amet, 
+                process upgrade and all of the other features were really nice. Lorem ipsum dolor sit amet, 
                 consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
